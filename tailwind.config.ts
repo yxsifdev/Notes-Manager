@@ -9,8 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        card_bg: "#2a313c",
+        card_border: "#383f48",
+        text_color: "#9198a1",
+        text_link: "#478be6",
+        button_bg: "#3a853f",
+        bg_color: "#212830",
+        border_color: "#353c44",
+      },
+      fontFamily: {
+        sans: ["var(--font-geist-sans)"],
+        mono: ["var(--font-geist-mono)"],
       },
     },
   },
