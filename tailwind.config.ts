@@ -12,6 +12,7 @@ const config: Config = {
         card_bg: "#2a313c",
         card_border: "#383f48",
         text_color: "#9198a1",
+        text_color_2: "#d1d7e0",
         text_link: "#478be6",
         button_bg: "#3a853f",
         bg_color: "#212830",

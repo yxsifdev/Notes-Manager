@@ -5,7 +5,7 @@ async function HeaderComponent() {
   const session = await getServerSession(authOptions);
 
   return (
-    <header className="flex items-center justify-between py-4">
+    <header className="flex items-center justify-between py-4 mb-10">
       <div className="flex items-center">
         <Link href="/" className="mr-10 text-3xl font-bold text-white">
           Notes Manager
